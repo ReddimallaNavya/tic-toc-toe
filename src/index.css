@@ -1,0 +1,78 @@
+table {
+  margin: 0 auto; /* Center the table */
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+caption {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+td {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid #333; /* Add borders to create the grid */
+}
+
+/* Styling the button inside each table cell */
+button {
+  width: 100%;
+  height: 100%;
+  font-size: 24px;
+  background-color: #ccc8c8;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect */
+button:hover {
+  background-color: #f0f0f0; /* Light grey hover */
+}
+
+button:focus {
+  outline: none; /* Remove focus outline */
+}
+
+/* Background colors for X and O */
+button.x {
+  background-color: #0d79ec; /* Bright blue for X */
+  color: white; /* High contrast text */
+  font-weight: bold;
+}
+
+button.o {
+  background-color: #f85e61; /* Bright red for O */
+  color: white; /* High contrast text */
+  font-weight: bold;
+}
+
+/* Disabled buttons (cells that have already been clicked) */
+button:disabled {
+  background-color: #cccccc; /* Light grey for disabled buttons */
+  color: #fff;
+  cursor: not-allowed;
+}
+
+/* Center the overall content */
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #fafafa;
+}
+
+#b1 {
+  border: solid;
+  padding-top: 20px;
+  border-radius: 120px;
+  margin: 30px;
+  background-color: rgb(203, 231, 231);
+}
